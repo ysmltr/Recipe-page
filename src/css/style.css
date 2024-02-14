@@ -15,10 +15,14 @@
 
 
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: var(--font-family-default);
+}
+
+body{
+    background-color: var(--eggshell);
+    max-width: 1440px;
+    font-size: 1rem;
 }
 
 h1{
