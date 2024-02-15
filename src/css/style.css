@@ -12,3 +12,9 @@
     --font-size-default: 16px;
     --font-family-default: "Outfit", sans-serif;
 }
+
+
+*{
+box-sizing: border-box;
+margin: 0;
+}
