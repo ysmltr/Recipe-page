@@ -25,6 +25,7 @@ body {
   background-color: var(--eggshell);
   margin: 0;
   padding: 0;
+  
 }
 
 .container {
@@ -32,6 +33,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   background-color: var(--white);
+  border-radius: 10px;
 }
 
 .wrapper {
