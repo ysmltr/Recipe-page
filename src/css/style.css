@@ -55,6 +55,9 @@ margin-bottom: 1.6em;
 li::marker {
   color: var(--dark-raspberry);
 }
+.prep-list li{
+  color: var(--dark-charcoal);
+}
 h1, .prep-t, .ingreds-t, h3 {
   font-family: var(--ff-main);
   color: var(--nutmeg);
