@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+:root {
+  /*primary colors*/
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+
+  /*neutral colors*/
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+  /* fonts*/
+  --ff-main: 'Young Serif', serif;
+  --ff-alt: 'Outfit', sans-serif;
+}
+
+body {
+  font-family: var(--ff-alt);
+  font-size: var(--font-size-default);
+  color: var(--dark-charcoal);
+  background-color: var(--eggshell);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--white);
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+.prep-inst{
+background-color: var(--rose-white);
+color: var(--dark-raspberry);
+padding: 1rem;
+border-radius: 10px;
+margin-bottom: 1.6em;
+}
+li::marker {
+  color: var(--dark-raspberry);
+}
+h1, .prep-t, .ingreds-t, h3 {
+  font-family: var(--ff-main);
+  color: var(--nutmeg);
+}
+
+.desc, .prep-list, .ingreds ul, .instruct ol, .nutr-p, .nutr-table {
+  font-family: var(--ff-alt);
+}
+
+.prep-inst, .ingreds, .instruct, .nutr {
+  margin-bottom: 20px;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+li, .nutr-table td {
+  padding: 5px 0;
+}
+
+.span {
+  font-weight: bold;
+  color: var(--dark-raspberry);
+}
+
+.nutr-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutr-table td {
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.attribution a {
+  color: var(--nutmeg);
+  text-decoration: none;
+}
