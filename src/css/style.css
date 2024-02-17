@@ -10,7 +10,8 @@
     --wenge-brown: hsl(30, 10%, 34%);
     --dark-charcoal: hsl(24, 5%, 18%);
     --font-size-default: 16px;
-    --font-family-default: "Outfit", sans-serif;
+    --ff-main: "Young Serif", serif;
+    --ff-alt: "Outfit", sans-serif;
 }
 
 
@@ -18,3 +19,118 @@
 box-sizing: border-box;
 margin: 0;
 }
+
+body {
+    color: var(--dark-charcoal);
+    background-color: var(--eggshell);
+}
+main{
+    padding: 3rem;
+}
+.wrapper {
+    background-color: white;
+    width: 735px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2.5rem;
+    border-radius: 15px;
+  }
+
+  img {
+    width: 650px;
+    border-radius: 15px;
+    background-color: white;
+  }
+
+  p, ul, ol {
+    font-weight: 400;
+    color: var(--wenge-brown);
+    font-family: Outfit;
+}
+li::marker {
+  color: var(--nutmeg);
+}
+  h1 {
+    color: var(--dark-charcoal);
+    font-family: var(--ff-main);
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.9rem;
+    font-weight: 600;
+    background-color: white;
+  }
+.desc{
+    
+        color: var(--wenge-brown);
+        font-family: var(--ff-alt);
+        line-height: 1.5;
+        padding-bottom: 1.5rem;
+      
+}
+.prep-inst{
+    background-color: var(--rose-white);
+    list-style-position: inside;
+    border-radius: 15px;
+    
+}
+
+.prep-t {
+    color: var(--dark-raspberry);
+    font-size: 1.2rem;
+    font-family: var(--ff-alt);
+    font-weight: 600;
+    padding-left: 1.1rem;
+    
+  }
+b{
+    color: var(--dark-raspberry);
+}
+  .prep-list{
+    padding-bottom: 5px;
+    line-height: 2;
+  }
+
+  .prep-inst ul li{
+    font-family: var(--ff-alt);
+  }
+
+  .ingreds-t{
+    color: var(--nutmeg);
+  font-size: 1.8rem;
+  font-family: var(--ff-main);
+  margin-top: 0.9rem;
+  padding: 0.2rem
+  }
+  .list{
+  padding-left: 1.6rem;
+  font-family: var(--ff-alt);
+  padding-bottom: 1.6rem;
+  color: var(--wenge-brown);
+  line-height: 2rem;
+  }
+
+h3{
+  border-top: 2px solid var(--light-grey);
+  
+  font-family: var(--ff-main);
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--nutmeg);
+    margin-bottom: 1.7rem;
+    margin-top: 1rem;
+}
+
+.instruct ol{
+  
+    color: var(--wenge-brown);
+}
+
+.instruct ol li{
+  margin-bottom: 5px;
+  line-height: 1.6rem;
+  max-width: 620px;
+  color: var(--wenge-brown);
+}
+.span{
+  font-weight: 700;}
