@@ -63,15 +63,23 @@ h1, .prep-t, .ingreds-t, h3 {
 .desc, .prep-list, .ingreds ul, .instruct ol, .nutr-p, .nutr-table {
   font-family: var(--ff-alt);
 }
-
+.nutr-p{
+  font-size: 18px;
+}
 .prep-inst, .ingreds, .instruct, .nutr {
   margin-bottom: 20px;
+  
+}
+.instruct,.nutr{
+  border-top: 1px solid var(--light-grey);
 }
 
 ul, ol {
   padding-left: 20px;
 }
-
+li{
+  font-size: 1.1rem;
+}
 li, .nutr-table td {
   padding: 5px 0;
 }
@@ -84,12 +92,20 @@ li, .nutr-table td {
 .nutr-table {
   width: 100%;
   border-collapse: collapse;
+  font-size: 18px;
 }
 
 .nutr-table td {
   border-bottom: 1px solid var(--light-grey);
 }
-
+.col-name{
+  font-size: 1.2rem;
+  color: var(--wenge-brown);
+}
+.col-val{
+  color: var(--nutmeg);
+  font-weight: bold;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
