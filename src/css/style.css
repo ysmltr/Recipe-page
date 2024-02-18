@@ -58,7 +58,11 @@ li::marker {
 .prep-list li{
   color: var(--dark-charcoal);
 }
-h1, .prep-t, .ingreds-t, h3 {
+h1{
+  color: var(--dark-charcoal);
+  font-family: var(--ff-main);
+}
+.prep-t, .ingreds-t, h3 {
   font-family: var(--ff-main);
   color: var(--nutmeg);
 }
